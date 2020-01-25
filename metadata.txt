@@ -4,7 +4,7 @@
 
 [general]
 name=Open Hazards PH
-qgisMinimumVersion=3.10
+qgisMinimumVersion=3.4
 description=A plugin to load publicly available geospatial hazard data created by various agencies in the Philippines.
 version=0.1
 author=BNHR
