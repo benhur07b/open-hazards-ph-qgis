@@ -10,7 +10,7 @@ version=0.1
 author=BNHR
 email=hi@bnhr.xyz
 
-about=Open Hazards PH is a QGIS plugin that lets you load geospatial hazard data created by various agencies in the Philippines. More information can be found at: https://github.com/maning/open-hazards-ph.
+about=Open Hazards PH is a QGIS plugin that lets you load geospatial hazard data created by various agencies in the Philippines and uses data stored in https://github.com/maning/open-hazards-ph. More information can be found at https://bnhr.xyz/open-hazards-ph.
 
 tracker=https://github.com/benhur07b/open-hazards-ph-qgis
 repository=https://github.com/benhur07b/open-hazards-ph-qgis
@@ -25,7 +25,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=search, web, philippines
 
-homepage=https://github.com/benhur07b/open-hazards-ph-qgis
+homepage=https://bnhr.xyz/open-hazards-ph
 category=Plugins
 icon=icon.png
 # experimental flag
