@@ -5,10 +5,10 @@
 ### Install the plugin
 The plugin is found in the QGIS Python Plugins Repository. The plugin can be downloaded [there](https://plugins.qgis.org/plugins/open_hazards_ph/) or within QGIS via the QGIS Plugin Manager. The plugin is tagged as experimental so make sure that you check the **Show experimental plugins** checkbox in the Settings tab of the Manage and Install Plugins window.
 
-![Install Open Hazards PH in QGIS](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis/blob/gh-pages/static/images/ohph_install.png)
+![Install Open Hazards PH in QGIS](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis/gh-pages/static/images/ohph_install.png)
 
 ### Run the plugin
-![Run Open Hazards PH](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis/blob/gh-pages/static/images/ohph_panel.png)
+![Run Open Hazards PH](https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis/gh-pages/static/images/ohph_panel.png)
 
 #### Select Data Source
 Select from 'lipad' (LiDAR Portal for Archiving and Distribution) or 'noah' (Nationwide Operational Assessment of Hazards).
