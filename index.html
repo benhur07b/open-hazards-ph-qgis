@@ -8,10 +8,10 @@
     <title>Open Hazards PH</title>
 
     <meta property="og:description" content="Open Hazards PH is a QGIS plugin that lets you load geospatial hazard data created by various agencies in the Philippines. It uses data stored in https://github.com/maning/open-hazards-ph">
-    <meta property="og:image" content="static/images/main.png"/>
+    <meta property="og:image" content="static/images/open_hazards_ph_bg.png"/>
 
     <meta name="twitter:description" content="Open Hazards PH is a QGIS plugin that lets you load geospatial hazard data created by various agencies in the Philippines. It uses data stored in https://github.com/maning/open-hazards-ph">
-    <meta name="twitter:image" content="static/images/main.png"/>
+    <meta name="twitter:image" content="static/images/open_hazards_ph_bg.png"/>
 
     <link rel="shortcut icon" href="https://bnhr.xyz/media/site/logos/BNHR-favicon.png">
 
@@ -19,66 +19,62 @@
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
     <!-- Bootstrap JS -->
     <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script>
-
 </head>
 
 <body>
 <div class='container'>
-    <h1 class="text-center" style="padding: 16px 0 0 0">Open Hazards PH</h1>
-    <p class="text-center" style="padding: 0px 0px 12px 0px">Aa QGIS plugin that lets you load geospatial hazard data created by various agencies in the Philippines. It uses data stored in <a href="https://github.com/maning/open-hazards-ph">https://github.com/maning/open-hazards-ph</a></p>
-    <p class="text-center" style="padding: 0px 0px 12px 0px">Got a data source to share? Send a pull request on <a href="https://github.com/maning/open-hazards-ph">Github</a> or <a href="https://bnhr.xyz/#contact">contact me</a>.</p>
-
-    <hr>
-    <h3>HOW-TO</h3>
-    <h4>Select Data Source
-    <p>Select from 'lipad' (LiDAR Portal for Archiving and Distribution) or 'noah' (Nationwide Operational Assessment of Hazards).
-
+    <h1>Open Hazards PH</h1>
+    <p><strong>Open Hazards PH</strong> is a QGIS plugin that lets you load geospatial hazard data created by various agencies in the Philippines. It uses data stored in <a href="https://github.com/maning/open-hazards-ph">https://github.com/maning/open-hazards-ph</a>.</p>
+    <h2>HOW-TO</h2>
+    <h3>Install the plugin</h3>
+    <p>The plugin is found in the QGIS Python Plugins Repository. The plugin can be downloaded <a href="https://plugins.qgis.org/plugins/open_hazards_ph/">there</a> or within QGIS via the QGIS Plugin Manager. The plugin is tagged as experimental so make sure that you check the <strong>Show experimental plugins</strong> checkbox in the Settings tab of the Manage and Install Plugins window.</p>
+    <h3>Run the plugin</h3>
+    <h4>Select Data Source</h4>
+    <p>Select from 'lipad' (LiDAR Portal for Archiving and Distribution) or 'noah' (Nationwide Operational Assessment of Hazards).</p>
     <h4>Select Data</h4>
     <p>Select the data you want to get/load.</p>
-
     <h4>Load Vector</h4>
     <p>Use this if the data to be loaded is a vector (check the name of the file to determine whether it's a vector or raster).</p>
-
     <h4>Load Raster</h4>
     <p>Use this if the data to be loaded is a raster(check the name of the file to determine whether it's a vector or raster).</p>
-
-
+    <hr />
     <h3>What is the license of the data?</h3>
     <p>We respect the license of the original source, each data source and data files have a corresponding license file. License varies from different agencies, in most cases government data are public domain.</p>
-
     <h3>Most data archived here are available in other government websites, why do this?</h3>
     <p>Philippine government data policy changes from the tenure of an administration to another, we want to ensure
     that what was public will remain public even if projects ran out of funds or there is a change in access policy.</p>
-
     <h3>I found some cool hazards data, will you host it?</h3>
     <p>Yes! Please open a ticket on the <a href="https://github.com/maning/open-hazards-ph">open-hazards-ph repo</a> and let's discuss.</p>
-
     <h3>The open-hazards-ph repo is maintained by:</h3>
-    <p>
-        <ul>
-            <li>Maning Sambale [<a href="https://github.com/maning">@maning</a>]
-            <li>RK Aranas [<a href="https://github.com/rukku">@rukku</a>]
-        </ul>
-    </p>
-
+    <ul>
+    <li>Maning Sambale [<a href="https://github.com/maning">@maning</a>]</li>
+    <li>RK Aranas [<a href="https://github.com/rukku">@rukku</a>]</li>
+    </ul>
     <h3>The Open Hazards PH QGIS plugin is maintained by:</h3>
-    <p>
-        <ul>
-            <li>Ben Hur Pintor [<a href="https://github.com/benhur07b">@benhur07b</a>]</li>
-        </ul>
-    </p>
-
+    <ul>
+    <li>Ben Hur Pintor [<a href="https://github.com/benhur07b">@benhur07b</a>]</li>
+    </ul>
     <h3>TO-DO/WISH LIST</h3>
-    <p>
-        <ul>
-            <li>Add default symbology when loading layers</li>
-            <li>Add ability to search/filter data (by name, by extent)</li>
-            <li>Add notification when plugin is running/done</li>
-        </ul>
-    </p>
-
+    <ul>
+    <li>Add default symbology when loading layers</li>
+    <li>Add ability to search/filter data
+    <ul>
+    <li>by name</li>
+    <li>by extent/area</li>
+    </ul>
+    </li>
+    <li>Add notification when plugin is running/done</li>
+    </ul>
     <h3>Pull Requests and Patches are most welcome!</h3>
-</div>
+    </div>
 
+<div style='padding: 12px'>
+    <p class='small'>
+    <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'><img class='mb-2' alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by-sa/4.0/80x15.png' /></a>
+    <br/>
+    This work and its contents by <a xmlns:cc='http://creativecommons.org/ns#' href='https://bnhr.xyz' property='cc:attributionName' rel='cc:attributionURL'>Ben Hur S. Pintor</a> is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>
+    Other works (software, source code, etc.) referenced in this website are under their own respective licenses.<br>
+    </p>
+</div>
 </body>
 </html>
