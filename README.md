@@ -23,7 +23,7 @@ Philippine government data policy changes from the tenure of an administration t
 that what was public will remain public even if projects ran out of funds or there is a change in access policy.
 
 ## I found some cool hazards data, will you host it?
-Yes! Please open a ticket on the repo and let's discuss.
+Yes! Please open a ticket on the [open-hazards-ph repo](https://github.com/maning/open-hazards-ph) and let's discuss.
 
 ## The open-hazards-ph repo is maintained by:
 * Maning Sambale [[@maning](https://github.com/maning)]
