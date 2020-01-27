@@ -51,3 +51,4 @@ Yes! Please open a ticket on the [open-hazards-ph repo](https://github.com/manin
 * Add notification when plugin is running/done
 
 ### Pull Requests and Patches are most welcome!
+OpenHazardsPH is on [Github](https://github.com/benhur07b/open-hazards-ph-qgis).
