@@ -23,7 +23,7 @@ Use this if the data to be loaded is a vector (check the name of the file to det
 Use this if the data to be loaded is a raster(check the name of the file to determine whether it's a vector or raster).
 
 #### Save Layer
-When loaded, the layers are stored in memory. If you want to save a copy (file), you can right click -> Export the layers.
+When loaded, the layers are stored in memory. If you want to save a copy (file), you can **Right click on the layer -> Export -> Save as**.
 
 ----
 ### What is the license of the data?
