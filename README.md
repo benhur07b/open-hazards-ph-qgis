@@ -24,6 +24,7 @@ Use this if the data to be loaded is a raster(check the name of the file to dete
 
 #### Save Layer
 When loaded, the layers are stored in memory. If you want to save a copy (file), you can **Right click on the layer -> Export -> Save as**.
+![Open Hazards PH]('https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis/gh-pages/static/images/ohph.gif')
 
 ----
 ### What is the license of the data?
