@@ -22,6 +22,9 @@ Use this if the data to be loaded is a vector (check the name of the file to det
 #### Load Raster
 Use this if the data to be loaded is a raster(check the name of the file to determine whether it's a vector or raster).
 
+#### Save Layer
+When loaded, the layers are stored in memory. If you want to save a copy (file), you can right click -> Export the layers.
+
 ----
 ### What is the license of the data?
 We respect the license of the original source, each data source and data files have a corresponding license file. License varies from different agencies, in most cases government data are public domain.
