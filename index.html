@@ -13,21 +13,131 @@
     <meta name="twitter:description" content="Open Hazards PH is a QGIS plugin that lets you load geospatial hazard data created by various agencies in the Philippines. It uses data stored in https://github.com/maning/open-hazards-ph">
     <meta name="twitter:image" content="static/images/ohph.png"/>
 
-    <link rel="shortcut icon" href="https://bnhr.xyz/assets/img/logos/favicon-4.ico">
+    <link rel="shortcut icon" href="https://bnhr.xyz/favicon.ico">
 
-    <!-- Bootstrap CSS -->
-    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
     <!-- Bootstrap JS -->
-    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <style>
+        .dropdown-menu {
+            border: 0px none white;
+            /* // background-color: rgba(255,255,255,0); */
+            background-color: #f8f9fa;
+        }
+
+        .dropdown-menu.dropdown-item {
+            padding: 0.1rem 1.25rem;
+        }
+
+        .dropdown-menu.dropdown-item:hover {
+            background-color: #f8f9fa;
+        }
+
+        .navbar-default {
+            border-color: transparent;
+            background-color: white;
+        }
+
+        .navbar-default .navbar-collapse {
+            border-color: rgba(255,255,255,.02);
+        }
+
+        .navbar-nav li a {
+            text-transform: lowercase;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 21px;
+            font-weight: 500;
+            /* color: #C44B4F; */
+            color:  #26363b;
+            -webkit-transition: all ease .35s;
+            -moz-transition: all ease .35s;
+            transition: all ease .35s;
+
+            /* @media (min-width: 996px) {
+                font-size: 24px;
+            } */
+
+            -webkit-user-select:none;
+            -khtml-user-select:none;
+            -moz-user-select:none;
+            -ms-user-select:none;
+            -o-user-select:none;
+            user-select:none;
+        }
+
+        .navbar-nav li a:active {
+            color: #C44B4F;
+        }
+
+        .navbar-nav li a:hover {
+            color: #C44B4F;
+         }
+
+        .nav-link {
+            padding: 0.2rem 1rem;
+        }
+    </style>
+
 </head>
 
 <body>
+<div class="container pb-2" id="page-top">
+    <nav class="navbar navbar-default navbar-expand-lg d-print">
+        <a class="navbar-brand" href="https://bnhr.xyz/">
+            <img src="https://d1v4x8erby89pz.cloudfront.net/img/logos/BNHR-navbar-logo.webp" class="img-fluid" style="max-height: 72px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav ml-auto">
+                <li>
+                    <a class="nav-link" href="https://bnhr.xyz/">home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://bnhr.xyz/#what-i-do">what I do</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://bnhr.xyz/#contact">contact</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://bnhr.xyz/blog/">blog</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="https://bnhr.xyz/services/">services</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="https://bnhr.xyz/services">services</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://bnhr.xyz/training/">training</a>
+                    </div>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="https://bnhr.xyz/portfolio">portfolio</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://bnhr.xyz/portfolio/cv.html">cv</a>
+                        <a class="dropdown-item" href="https://bnhr.xyz/portfolio/works.html">works</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
 <div class='container'>
     <h1 style="padding: 16px 0 0 0">Open Hazards PH</h1>
-    <p><strong>Open Hazards PH</strong> is a QGIS plugin that lets you load geospatial hazard data created by various agencies in the Philippines. It uses data stored in <a href="https://github.com/maning/open-hazards-ph">https://github.com/maning/open-hazards-ph</a>.</p>
+    <p><strong>Open Hazards PH</strong> is a QGIS plugin that lets you load geospatial hazard data created by various agencies in the Philippines. It uses data stored in <a href="https://github.com/maning/open-hazards-ph">https://github.com/maning/open-hazards-ph</a>.<br><br>
+    Note that this is an experimental plugin and a work in progress. Issues, Bug Fixes, and Pull Requests for features are more than welcome. You can check the repo on <a href=https://github.com/benhur07b/open-hazards-ph-qgis>Github</a>.
+    </p>
     <h2>HOW-TO</h2>
     <h3>Install the plugin</h3>
     <p>The plugin is found in the QGIS Python Plugins Repository. The plugin can be downloaded <a href="https://plugins.qgis.org/plugins/open_hazards_ph/">there</a> or within QGIS via the QGIS Plugin Manager. The plugin is tagged as experimental so make sure that you check the <strong>Show experimental plugins</strong> checkbox in the Settings tab of the Manage and Install Plugins window.</p>
+    <p><img class='img-fluid' src="https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis/gh-pages/static/images/show-exp.png" alt="Show also experimental plugins in QGIS" /></p>
     <p><img class='img-fluid' src="https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis/gh-pages/static/images/ohph_install.png" alt="Install Open Hazards PH in QGIS" /></p>
     <h3>Run the plugin</h3>
     <p><img class='img-fluid' src="https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis/gh-pages/static/images/ohph_panel.png" alt="Run Open Hazards PH" /></p>
@@ -39,6 +149,8 @@
     <p>Use this if the data to be loaded is a vector (check the name of the file to determine whether it's a vector or raster).</p>
     <h4>Load Raster</h4>
     <p>Use this if the data to be loaded is a raster(check the name of the file to determine whether it's a vector or raster).</p>
+    <h4>Waiting for layer to load</h4>
+    <p>Depending on the size of the layer you selected and your internet speed, it could take some time before it gets loaded in QGIS. Please try to be patient and wait for the selected layer to load. Prompts for current and finished downloads have yet to be implemented.</b>.</p>
     <h4>Save Layer</h4>
     <p>When loaded, the layers are stored in memory. If you want to save a copy (file), you can <b>Right click on the layer -> Export -> Save as</b>.</p>
     <p><img class='img-fluid' src="https://raw.githubusercontent.com/benhur07b/open-hazards-ph-qgis/gh-pages/static/images/ohph.gif" /></p>
